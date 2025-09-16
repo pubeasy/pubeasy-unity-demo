@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tradplus.n2">
+    <uses-permission android:name="android.permission.AD_ID" />
+    <application>
+        <!-- Google Play Services -->
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        
+        <!-- Removed duplicate AdMob APPLICATION_ID; declared in main manifest -->
+        <!-- <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/> -->
+        
+        <!-- Google Ad Manager-->
+        <meta-data
+                android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+                android:value="true"/>
+
+    </application>
+</manifest>

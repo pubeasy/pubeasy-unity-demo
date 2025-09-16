@@ -1,0 +1,76 @@
+# Unity - recommended .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity generated
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Build/
+Builds/
+BuildReport*/
+
+# User-specific
+UserSettings/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Visual Studio / Rider
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Crash/Profiler
+sysinfo.txt
+*.stacktrace
+
+# Android/Gradle
+.gradle/
+gradle/
+**/gradleTemp/
+*.apk
+*.aab
+
+# iOS/Xcode
+DerivedData/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.ipa
+
+# Unity Asset Store Tools (optional)
+Assets/AssetStoreTools*
+
+# Addressables build cache (generated)
+Assets/AddressableAssetsData/*/Windows*
+Assets/AddressableAssetsData/*/Android*
+Assets/AddressableAssetsData/*/iOS*
+
+# Keep these tracked (do NOT ignore)
+!Assets/
+!ProjectSettings/
+!Packages/
+
+# External Dependency Manager cache (optional)
+Assets/ExternalDependencyManager/Editor/*ResolverDependencies.xml.meta
+
+
